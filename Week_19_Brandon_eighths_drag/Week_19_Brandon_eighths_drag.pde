@@ -4,7 +4,7 @@ PVector wind = new PVector(random(0,2),0);
 
 void setup(){
   size(1000,500);
-  ball = new Mover(100,0);
+  ball = new Mover(random(width),100);
 }
 
 void draw(){
