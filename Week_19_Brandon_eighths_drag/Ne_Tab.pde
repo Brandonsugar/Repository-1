@@ -8,7 +8,7 @@ class Mover{
     location = new PVector(xLoc,yLoc);
     velocity = new PVector(0,0);
     acceleration = new PVector(0,0);
-    mass = random(3,6);
+    mass = random(4,6);
   }
   
   void applyForce(PVector force){
